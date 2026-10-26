@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Chat Demo (Not Working)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="chat-container">
+  <header class="chat-header">
+    <h1>AI Chat Demo</h1>
+    <select id="preset-select">
+      <option value="">-- Choose a preset --</option>
+      <option value="friendly">Friendly</option>
+      <option value="sarcastic">Sarcastic</option>
+      <option value="formal">Formal</option>
+    </select>
+  </header>
+
+  <div id="chat-box" class="chat-box"></div>
+
+  <footer class="chat-footer">
+    <textarea id="user-input" rows="1" placeholder="Type your message…"></textarea>
+    <button id="send-btn">Send</button>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
